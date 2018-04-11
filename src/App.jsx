@@ -72,6 +72,7 @@ export default class App extends Component {
   }
 
   clear() {
+    this.pause();
     this.setState({
       data: this.state.data.map(r => r.map(() => 0)),
       counter: 0,
