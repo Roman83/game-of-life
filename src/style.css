@@ -1,6 +1,6 @@
 #container {
     display: inline-block;
-    min-width: 100px;
+    min-width: 960px;
     background: #ccc;
     padding: auto;
 }
